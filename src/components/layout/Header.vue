@@ -1,11 +1,12 @@
 <template>
-  <header class="header">
-    <h1>TodoList</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">TodoList</a>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/profile">Profile</router-link>
     </div>
-  </header>
+  </nav>
 </template>
 
 <script>
@@ -16,7 +17,7 @@ export default {
 
 <style scoped>
   .header {
-    background: #333;
+    background: #b51c1c;
     color: #fff;
     text-align: center;
     padding: 10px;
